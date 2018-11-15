@@ -1,0 +1,23 @@
+{
+  "name": "relay-compiler-language-coffeescript",
+  "version": "0.0.1",
+  "description": "A language plugin for Relay that adds CoffeeScript support.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Cormier-Iijima <samuel@cormier-iijima.com>",
+  "license": "MIT",
+  "dependencies": {
+    "coffeescript": "^2.3.2"
+  },
+  "peerDependencies": {
+    "graphql": "^14.0.2",
+    "graphql-compiler": "^1.7.0",
+    "relay-compiler": "^1.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
