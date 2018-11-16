@@ -10,7 +10,7 @@
   "homepage": "https://github.com/sciyoshi/relay-compiler-language-coffeescript",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sciyoshi/relay-compiler-language-coffeescript'
+    "url": "https://github.com/sciyoshi/relay-compiler-language-coffeescript"
   },
   "author": "Samuel Cormier-Iijima <samuel@cormier-iijima.com>",
   "license": "MIT",
