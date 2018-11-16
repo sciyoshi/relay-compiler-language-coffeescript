@@ -1,9 +1,10 @@
 {
   "name": "relay-compiler-language-coffeescript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A language plugin for Relay that adds CoffeeScript support.",
   "main": "lib/index.js",
   "scripts": {
+    "build": "coffee -c -t -o lib src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samuel Cormier-Iijima <samuel@cormier-iijima.com>",
