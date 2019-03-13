@@ -5,6 +5,6 @@ import { find } from "./FindGraphQLTags"
 
 export default -> ({
 	...plugin()
-	inputExtensions: ["js", "jsx", "coffee", "cjsx", ".ts", ".tsx"]
+	inputExtensions: ["js", "jsx", "coffee", "cjsx", "ts", "tsx"]
 	findGraphQLTags: find
 })
