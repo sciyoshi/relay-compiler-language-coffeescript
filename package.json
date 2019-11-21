@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "coffee -c -t -o lib src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "homepage": "https://github.com/sciyoshi/relay-compiler-language-coffeescript",
   "repository": {
